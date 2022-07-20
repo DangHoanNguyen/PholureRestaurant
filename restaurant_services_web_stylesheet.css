@@ -12,20 +12,22 @@ button{
     text-align: left;
     margin: 0 !important;
     padding: 0 !important;
+    height:600px;
+    display: block;
 }
 
 .illustration {
-    /* display: inline-block; */
+    
     background: url('restaurant_img2.jpg') no-repeat center;
     background-size: cover;
     width:60%;
     height: 600px;
     margin: 0 !important;
-    float:left;
+    float: left;
 }
 
 .ovrl-info-and-options{
-    /* display: inline-block; */
+   
     background-color: #22223b;
     width: 40%;
     height: 600px;
@@ -61,6 +63,7 @@ button{
 
 body {
     margin: 0 !important;
+    display:block;
 }
 
 .optns {
@@ -101,7 +104,7 @@ body {
 
 .extra-info{
     width:100%;
-    display: flex;
+    display: block;
     height: 600px;
     background-color: #4a4e69;
     text-align: right;
@@ -109,15 +112,14 @@ body {
 }
 
 .menu{
-    display: flex;
     width: 20%;
-    
+    height: 500px;
+    float: right;
+    margin-top: 20px;
+    text-align: center;
+}
+.menu-a{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     color:#f2e9e4;
 }
-/* .menu-a{
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    color:#f2e9e4;
-} */
