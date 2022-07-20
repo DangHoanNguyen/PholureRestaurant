@@ -105,21 +105,39 @@ body {
 .extra-info{
     width:100%;
     display: block;
-    height: 600px;
+    height: 300px;
     background-color: #4a4e69;
-    text-align: right;
+    margin: 0;
   
 }
-
-.menu{
+.menu,
+.address,
+.contact-info{
     width: 20%;
-    height: 500px;
     float: right;
-    margin-top: 20px;
     text-align: center;
+    padding-top: 20px;
 }
+
+.c-i,
+.add,
 .menu-a{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     color:#f2e9e4;
+    float: center;
+    text-transform: uppercase;
+    
 }
+
+.c-i-a,
+.add-a{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #f2e9e4;
+    float: center;
+}
+
+
+
+
