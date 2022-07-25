@@ -139,5 +139,11 @@ body {
 }
 
 
-
+.menu-a{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#f2e9e4;
+    float: center;
+    text-transform: uppercase;
+}
 
